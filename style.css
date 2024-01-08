@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Color__boxes,
+.Gradient__boxes{
+
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+border-radius: 2px;
+margin-top: 50px;
+margin-bottom: 100px;
+}
+.Gradient__boxes{
+    margin-bottom: 1000px; 
+}
+.box,
+.Gbox{
+width: 200px;
+height: 200px;   
+border-radius: 8px;
+border: 1px solid black;
+cursor: pointer;
+transition: .5s;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
